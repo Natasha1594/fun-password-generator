@@ -46,7 +46,7 @@ def generate_password(length):
 
 def cred_data_exists(number):
     '''
-    Functionthat checks for existing credentials
+    Function used to check for existing credentials
     '''
     return Credential.cred_data_exists(number)
 
