@@ -76,7 +76,7 @@ def copy_password(number,count):
 
 def main():
     '''
-    Main function for the program
+    The core function for the program
     '''
     user_id = 0  # assigned to identity variable
     user_entries = []  # variable to hold the identity of user
