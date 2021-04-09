@@ -21,7 +21,7 @@ def save_credential(credential):
 
 def authenticate(name,password):
     '''
-    Function that authenticates for signing in
+    Function used to authenticate for signing in
     '''
     return Credential.authenticate_credential(name,password)
 
