@@ -81,7 +81,7 @@ def main():
     user_id = 0  # assigned to identity variable
     user_entries = []  # variable to hold the identity of user
     print("\n")
-    print("Hello, welcome to password locker!")
+    print("Hello, welcome to Fun-password-generator!")
     print("-"*35)
     print("\n")
 
