@@ -135,7 +135,7 @@ def main():
 
                         if code_input == 'ca':
                                 #Creating new account
-                                print("Enter new account name eg. facebook, yelp")
+                                print("Enter new account name eg. instagram, yelp")
                                 account_name = input("Account Name")
                                 print("Do you want to to key in your own password or automatically generate one?")
 
