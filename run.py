@@ -58,7 +58,7 @@ def data_exists(number):
 
 def display_data(user_number,data_number):
     '''
-    Function that displays existing data
+    Function used to display existing data
     '''
     return UserData.display_data(user_number,data_number)
 
