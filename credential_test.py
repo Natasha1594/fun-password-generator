@@ -10,7 +10,7 @@ class TestCredential(unittest.TestCase):
         '''
         Function to set initial variables for testing
         '''
-        self.new_cred = Credential(1,"Sophia","admin")
+        self.new_cred = Credential(1,"Natasha","admin")
 
     def tearDown(self):
         '''
@@ -38,7 +38,6 @@ class TestCredential(unittest.TestCase):
         test_create_multiple_credentials test case to check if we can save multiple objects to our credential list
         '''
         self.new_cred.save_credential()
-        test_cred = Credential(2,"Njeri","admin2") #new credentials
         test_cred.save_credential()
 
         self.assertEqual(len(Credential.credential_list),2)
