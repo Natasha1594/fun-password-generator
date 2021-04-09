@@ -70,7 +70,7 @@ def account_exist(name):
 
 def copy_password(number,count):
     '''
-    Function that copies the password to the clipboard
+    Function used to copy the password to the clipboard
     '''
     UserData.copy_password(number,count)
 
