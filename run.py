@@ -93,7 +93,7 @@ def main():
 
     while True:
 
-        print("Type in one of these short codes : \n cc - create a new account credential,\n li - logging in, \n ex - exit passwordlocker ")
+        print("Type in one of these short codes : \n cc - create a new account credential,\n li - logging in, \n ex - exit Fun-password-generator ")
 
         short_code = input().lower()
 
