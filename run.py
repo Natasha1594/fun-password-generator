@@ -137,7 +137,7 @@ def main():
                                 #Creating new account
                                 print("Enter new account name eg. instagram, twitter")
                                 account_name = input("Account Name")
-                                print("Do you want to to key in your own password or automatically generate one?")
+                                print("Do you want to key in your own password or automatically generate one?")
 
 
                                 print("Type these codes:\n mp - manually generate password\n ap - automatically generate password")
