@@ -64,7 +64,7 @@ def display_data(user_number,data_number):
 
 def account_exist(name):
     '''
-    Function that checks if the account exists by name
+    Function used to verify if the account exists by name
     '''
     return UserData.account_exist(name)
 
