@@ -52,7 +52,7 @@ def cred_data_exists(number):
 
 def data_exists(number):
     '''
-    Function that checks if the data exists
+    Function used to check if the data exists
     '''
     return UserData.data_exists(number)
 
