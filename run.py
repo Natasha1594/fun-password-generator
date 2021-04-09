@@ -7,7 +7,7 @@ import string,random,time
 #Functions for Credentials
 def create_credential(identity, user_name, password):
     '''
-    Function used to initialize and create new accounts
+    Function to initialize and create new accounts
     '''
     new_cred = Credential(identity, user_name,password)
     return new_cred
