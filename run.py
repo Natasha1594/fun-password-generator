@@ -15,7 +15,7 @@ def create_credential(identity, user_name, password):
 
 def save_credential(credential):
     '''
-    Function that saves user credentials
+    Function used to save user credentials
     '''
     credential.save_credential()
 
