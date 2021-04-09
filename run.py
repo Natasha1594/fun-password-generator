@@ -28,7 +28,7 @@ def authenticate(name,password):
 #Functions for User Data
 def create_data(user_identity, data_identity, account_name, account_key):
     '''
-    Function used to create new user data
+    Function for creating new user data
     '''
     new_userdata = UserData(user_identity, data_identity, account_name, account_key)
     return new_userdata
