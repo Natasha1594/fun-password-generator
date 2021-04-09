@@ -40,7 +40,7 @@ def save_account(data):
 
 def generate_password(length):
     '''
-    Function that generates new password
+    Function used to generate new password
     '''
     return UserData.password_generator(length)
 
